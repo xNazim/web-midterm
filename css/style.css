@@ -1,5 +1,4 @@
-﻿/* RESET RULES & HELPER CLASSES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+﻿
 :root {
   --lightblue: #f6f9fc;
   --red: #d64041;
@@ -38,10 +37,8 @@ a:hover {
   padding: 15px;
 }
 
-/* SCROLL ANIMATIONS
 
-/* HEADER
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .page-header {
   transition: background 0.5s ease-in-out;
 }
@@ -59,8 +56,7 @@ a:hover {
   border-color: var(--indigo); 
 }
 
-/* BANNER SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .hero {
   background-attachment: fixed;
   transition: transform 0.5s ease-in-out;
@@ -84,8 +80,7 @@ a:hover {
   z-index: 10;
 }
 
-/* POPULAR DESTINATIONS SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .popular-destinations figure {
   margin-bottom: 30px;
 }
@@ -119,17 +114,23 @@ a:hover {
 }
 
 
-/* PAGE FOOTER
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .page-footer .footer-links {
   text-align: right;
 }
 
-/* MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* MEDIUM SCREENS */
+
+
+
 @media screen and (max-width: 991px) {
   .page-header {
     background: var(--indigo);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .page-footer .footer-child {
+    text-align: center;
   }
 }
