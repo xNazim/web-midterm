@@ -52,8 +52,8 @@ a:hover {
 }
 
 .page-header .navbar-toggler {
-  
-  
+
+
   border-color: var(--indigo); 
 }
 
@@ -82,11 +82,11 @@ a:hover {
 }
 
 
-.popular-destinations figure {
+.other-wonders figure {
   margin-bottom: 30px;
 }
 
-.popular-destinations figcaption {
+.other-wonders figcaption {
   top: 0;
   right: 0;
   bottom: 0;
@@ -94,12 +94,12 @@ a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.popular-destinations img {
+.other-wonders img {
   filter: grayscale(100%) blur(3px);
   transition: transform 0.5s, filter 0.75s;
 }
 
-.popular-destinations a:hover img {
+.other-wonders a:hover img {
   transform: scale(1.25);
   filter: none;
 }
