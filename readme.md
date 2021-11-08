@@ -3,7 +3,7 @@
 ###It's a simple responsive landing page about travel agency.
 ###The page built with bootstrap 4.2.1 framework.
 
-![alt text](img/page.png "screenshot")
+![alt text](img/page.PNG "screenshot")
 
 ##Used materials
 JavaScript for smoothy scroll. Jquery's animate method. Here is cdn of Jquery and bootstrap 4's js.min file.
@@ -18,4 +18,4 @@ Here is font awesome's cdn and screnshot.
 ```html
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 ```
-![alt text](img/fa.png "screenshot")
+![tag](img/fa.PNG)
