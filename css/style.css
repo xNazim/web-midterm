@@ -52,7 +52,8 @@ a:hover {
 }
 
 .page-header .navbar-toggler {
-  /* the variable is inherited from BS4 built-in variables */
+  
+  
   border-color: var(--indigo); 
 }
 
@@ -73,7 +74,7 @@ a:hover {
     rgba(0, 0, 0, 0.6) 0,
     rgba(0, 0, 0, 0.3) 50%,
     rgba(0, 0, 0, 0.1) 100%
-  );
+    );
 }
 
 .hero .container-fluid {
