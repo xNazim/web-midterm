@@ -11,7 +11,7 @@ JavaScript for smoothy scroll. Jquery's animate method. Here is cdn of Jquery an
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 ```
-#### ont Awesome Library
+#### Font Awesome Library
 Font Awesome is a font and icon toolkit based on CSS and Less. As of 2020, 
 Font Awesome was used by 38% of sites that use third-party font scripts, placing Font Awesome in second place after Google Fonts.
 Here is font awesome's cdn and screnshot.
