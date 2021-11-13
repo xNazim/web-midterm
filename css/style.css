@@ -40,10 +40,6 @@ a:hover {
 
 
 .page-header {
-  transition: background 0.5s ease-in-out;
-}
-
-.page-header {
   background: var(--indigo);
 }
 
@@ -60,7 +56,6 @@ a:hover {
 
 .hero {
   background-attachment: fixed;
-  transition: transform 0.5s ease-in-out;
 }
 
 .hero::after {
@@ -78,31 +73,22 @@ a:hover {
 }
 
 .hero .container-fluid {
-  z-index: 10;
+  z-index: 15;
 }
 
 
 .other-wonders figure {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .other-wonders figcaption {
-  top: 0;
+  top: 10;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
 }
 
-.other-wonders img {
-  filter: grayscale(100%) blur(3px);
-  transition: transform 0.5s, filter 0.75s;
-}
 
-.other-wonders a:hover img {
-  transform: scale(1.25);
-  filter: none;
-}
 
 .bg-style {
   background: var(--indigo);
